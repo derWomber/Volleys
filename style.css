@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    background-color: #DBD7C8;
+}
+
+.links a {
+    font-family:'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1.5rem;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+.CI {
+    height: 60px;
+    width: 200px;
+    margin-left: -3rem;
+}
+nav {
+    margin: -1rem;
+    margin-top: 1rem;
+    background-color: #DBD7C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+
+.links a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #222;
+    transition: all 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.btn {
+    margin-left: 4rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.mainimgC {
+    margin: -8px;
+    margin-top: 10px;
+    height: 490px;
+    background-image: url('Images/vollies.png');
+}
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, rgba(219, 215, 200, 0), rgba(219, 215, 200, 0.8)); /* Adjusted gradient colors */
+}
+
+.headtext {
+    height: 300px;
+    width: 600px;
+}
+
+.about {
+    margin-top: -29rem;
+    margin-left: 4rem;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: 4rem;
+    
+}
+
+.about1 {
+    margin-top: -3rem;
+    margin-left: 4rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    
+}
+
+.textmain {
+    color: #9c9999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+
+.btn2 {
+    margin-left: 4rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn2:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    background-color: #DBD7C8;
+}
+
+.links a {
+    font-family:'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1.5rem;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+.CI {
+    height: 60px;
+    width: 200px;
+    margin-left: -3rem;
+}
+
+nav {
+    margin: -1rem;
+    margin-top: 1rem;
+    background-color: #DBD7C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+
+.links a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #222;
+    transition: all 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.btn {
+    margin-left: 4rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.mainimgC {
+    margin: -8px;
+    margin-top: 10px;
+    height: 300px;
+    background-image: url('Images/vollies2.jpeg');
+}
+
+.maintext{
+    height: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OH {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+    -3px  3px 0 #000,
+     3px  3px 0 #000;
+}
+
+.text-body {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    word-spacing: 10px;
+    width: 765px;
+}
