@@ -68,6 +68,8 @@ ul {
     background-color: #555;
     color: rgb(255, 255, 255);
     font-weight: 100;
+    cursor: pointer;
+    
 }
 
 .mainimgC {
