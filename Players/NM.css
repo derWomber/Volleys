@@ -27,6 +27,7 @@ body{
 
 .Back-Button:hover {
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 nav {
